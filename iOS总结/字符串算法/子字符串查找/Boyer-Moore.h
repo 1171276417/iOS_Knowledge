@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 void boyerMoore(void);
 
-int getStringCount(char string[]);
+int getStringCount(char string[_Nullable]);
 
 @end
 

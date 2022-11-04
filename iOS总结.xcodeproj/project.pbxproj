@@ -16,6 +16,7 @@
 		353AE4A328D758D2007E5956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AE4A228D758D2007E5956 /* main.m */; };
 		353AE4AB28D758EC007E5956 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AE4AA28D758EC007E5956 /* Person.m */; };
 		353AE4B128D777EA007E5956 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AE4B028D777EA007E5956 /* Dog.m */; };
+		3573956E291419D400AD925C /* DataStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 3573956D291419D400AD925C /* DataStructure.m */; };
 		3576B3A628DC843C00D66BA6 /* DJNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 3576B3A528DC843C00D66BA6 /* DJNotification.m */; };
 		3576B3AA28DCAE2300D66BA6 /* ObservationStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 3576B3A928DCAE2300D66BA6 /* ObservationStruct.m */; };
 		3576B3AD28DCC26400D66BA6 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3576B3AC28DCC26400D66BA6 /* Singleton.m */; };
@@ -66,6 +67,8 @@
 		353AE4AA28D758EC007E5956 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		353AE4AF28D777EA007E5956 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		353AE4B028D777EA007E5956 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		3573956C291419D400AD925C /* DataStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructure.h; sourceTree = "<group>"; };
+		3573956D291419D400AD925C /* DataStructure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStructure.m; sourceTree = "<group>"; };
 		3576B3A428DC843C00D66BA6 /* DJNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJNotification.h; sourceTree = "<group>"; };
 		3576B3A528DC843C00D66BA6 /* DJNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJNotification.m; sourceTree = "<group>"; };
 		3576B3A828DCAE2300D66BA6 /* ObservationStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObservationStruct.h; sourceTree = "<group>"; };
@@ -282,6 +285,8 @@
 				35A4FF6E29095F5800875FE4 /* Boyer-Moore.m */,
 				35A4FF73290E9BFF00875FE4 /* RegExp.h */,
 				35A4FF74290E9BFF00875FE4 /* RegExp.m */,
+				3573956C291419D400AD925C /* DataStructure.h */,
+				3573956D291419D400AD925C /* DataStructure.m */,
 			);
 			path = "子字符串查找";
 			sourceTree = "<group>";
@@ -409,6 +414,7 @@
 				3576B3B128E14E1200D66BA6 /* NSStringViewController.m in Sources */,
 				3576B3DC28E4460900D66BA6 /* Java.m in Sources */,
 				3576B3B728E2ECBD00D66BA6 /* NSArrayViewController.m in Sources */,
+				3573956E291419D400AD925C /* DataStructure.m in Sources */,
 				353AE4B128D777EA007E5956 /* Dog.m in Sources */,
 				3576B3AA28DCAE2300D66BA6 /* ObservationStruct.m in Sources */,
 				35A4FF5E2906E5D600875FE4 /* WordTreeViewController.m in Sources */,
