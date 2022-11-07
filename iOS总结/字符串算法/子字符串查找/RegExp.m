@@ -26,9 +26,6 @@ void regularExpression(void) {
 
     __unused bool ishave = regExp(text, target);
     
-
-
-    
     
     NSLog(@"");
 }
@@ -83,7 +80,6 @@ Digraph* createNFA(StringArr *targetArr) {
                 targetArr->charSet[targetArr->setSize] = targetArr->stringArr[i];
                 targetArr->setSize++;
             }
-            
         }
         
         int lp = i;
@@ -126,14 +122,9 @@ DFAStruct* createDFA(StringArr *targetArr, Digraph *digraphNFA) {
     Queue *stateQueue = initQueue();
     enQueue(stateQueue, epsilonSet[0]);
     
-    
     //DFA状态的集合
     DFAStateSet *stateSet = initStateSet();
 
-    //正则表达字符数组
-    //Array *charArray = initArray();
-    //treePreorderTraversal(charSet->rootNode, charArray);
-    
     while (!queueEmpty(stateQueue)) {
         Set *set = deQueue(stateQueue);
         addStateSet(stateSet, set);

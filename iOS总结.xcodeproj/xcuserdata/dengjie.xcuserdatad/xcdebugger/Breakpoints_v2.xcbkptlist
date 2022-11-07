@@ -14,9 +14,25 @@
             filePath = "iOS&#x603b;&#x7ed3;/&#x5b57;&#x7b26;&#x4e32;&#x7b97;&#x6cd5;/&#x5b50;&#x5b57;&#x7b26;&#x4e32;&#x67e5;&#x627e;/RegExp.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "regularExpression()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E25A46B0-6EC8-406A-BF4D-95D5C2429505"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS&#x603b;&#x7ed3;/&#x5b57;&#x7b26;&#x4e32;&#x7b97;&#x6cd5;/&#x5b50;&#x5b57;&#x7b26;&#x4e32;&#x67e5;&#x627e;/KMP.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "kmp()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

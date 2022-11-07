@@ -31,9 +31,16 @@ typedef struct StringArr {
     int setSize;
 }StringArr;
 
-///将字符串标准化返回StringArr*
+
+/// 将字符串标准化返回StringArr
+/// - Parameter initialLength: 字符串初始长度
 StringArr* initStringArray(char target[_Nullable], int initialLength);
-///获得该字符在集合的位置
+
+
+/// 获得该字符在集合的位置
+/// - Parameters:
+///   - arr: 目标字符串
+///   - data: 查询的字符
 int getLocationInArray(StringArr *arr, char *data);
 
 

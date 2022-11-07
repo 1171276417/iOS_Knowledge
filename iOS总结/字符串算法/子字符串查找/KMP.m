@@ -13,20 +13,20 @@
 ///KMP算法
 void kmp(void) {
     
-//    char text[] = "AABACDFABABC";
-//    char target[] = "ACDFA";
-//
-//    bool ishave = kmpSearch(text, target);
-//
-//    NSLog(@"");
-    
-    char a[] = "萨法啊萨法啊水电费打发发嘎是个撒撒地方爱上发";
-    char b[] = "打发发嘎";
-    
-    __unused bool ishave = kmpSearch(a, b);
+    char text[] = "AABACDFABABC";
+    char target[] = "ACDFA";
 
-  
+    bool ishave = kmpSearch(text, target);
+
     NSLog(@"");
+    
+//    char a[] = "萨法啊萨法啊水电费打发发嘎是个撒撒地方爱上发";
+//    char b[] = "打发发嘎";
+//    
+//    __unused bool ishave = kmpSearch(a, b);
+//
+//  
+//    NSLog(@"");
 
 }
 

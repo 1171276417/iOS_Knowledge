@@ -92,11 +92,6 @@ void addArray(Array *arr, int data) {
 }
 
 ///判断某元素是否属于该数组
-//int belongArray(StringArr *arr, char *data) {
-//    for(int i = 0; i < arr->setSize; i++)
-//        if(*arr->charSet[i] == *data) return i+1;
-//    return 0;
-//}
 bool belongArray(Array *arr, int data) {
     for(int i = 0; i < arr->count; i++)
         if(arr->array[i] == data) return YES;

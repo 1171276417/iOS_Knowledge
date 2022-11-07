@@ -12,14 +12,14 @@
 
 void boyerMoore(void) {
     
-    char text[] = "ASIMPLE EXAMPLE";
-    char target[] = "EXAMPLE";
+    __unused char text[] = "ASIMPLE EXAMPLE";
+    __unused char target[] = "EXAMPLE";
     
-    char a[] = "跳出内层循环；外层循环依然执行，直到 i>4 成立，跳出外层循环。内层循环共执行了4次，外层循环共执行了1次";
-    char b[] = "额";
+    __unused char a[] = "跳出内层循环；外层循环依然执行，直到 i>4 成立，跳出外层循环。内层循环共执行了4次，外层循环共执行了1次";
+    __unused char b[] = "额";
     
     
-    bool ishave = boyerMooreSearch(a, b);
+    __unused bool ishave = boyerMooreSearch(a, b);
     
     NSLog(@"");
 }

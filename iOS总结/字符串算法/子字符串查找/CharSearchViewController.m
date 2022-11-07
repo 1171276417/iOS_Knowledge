@@ -20,7 +20,7 @@
     [super viewDidLoad];
     
     //KMP算法
-    //kmp();
+    kmp();
     
     
     //BoyerMoore算法
